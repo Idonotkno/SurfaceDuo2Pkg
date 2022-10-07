@@ -123,23 +123,8 @@ APRIORI DXE {
             SECTION UI = "I2C"
     }
 
-    FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-2a7b4bef-80cd-49e1-b473-374ba4d673fc/section0.dxe.depex
-            SECTION PE32 = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-2a7b4bef-80cd-49e1-b473-374ba4d673fc/section1.pe
-            SECTION UI = "SPMI"
-    }
 
-    FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-5776232e-082d-4b75-9a0e-fe1d13f7a5d9/section0.dxe.depex
-            SECTION PE32 = SurfaceDuo2Pkg/PatchedBinaries/PmicDxe.efi
-            SECTION UI = "PmicDxe"
-    }
 
-    FILE DRIVER = 6201ace5-5f41-4eb5-bfad-6980ea341d63 {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-6201ace5-5f41-4eb5-bfad-6980ea341d63/section0.dxe.depex
-            SECTION PE32 = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-6201ace5-5f41-4eb5-bfad-6980ea341d63/section1.pe
-            SECTION UI = "EXTFG"
-    }
 
     FILE DRIVER = 6b38f7b4-ad98-40e9-9093-aca2b5a253c4 {
             SECTION PE32 = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-1/section0/section1/volume-0/file-6b38f7b4-ad98-40e9-9093-aca2b5a253c4/section0.pe
@@ -150,11 +135,7 @@ APRIORI DXE {
     INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
     INF MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
 
-    FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-f10f76db-42c1-533f-34a8-69be24653110/section0.dxe.depex
-            SECTION PE32 = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-f10f76db-42c1-533f-34a8-69be24653110/section1.pe
-            SECTION UI = "SdccDxe"
-    }
+
 
     FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
             SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-1/section0/section1/volume-0/file-0d35cd8e-97ea-4f9a-96af-0f0d89f76567/section0.dxe.depex
@@ -318,11 +299,6 @@ APRIORI DXE {
             SECTION UI = "UsbMassStorageDxe"
     }
 
-    FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-cd823a4d-7dec-4531-ae5d-4134fa4127b8/section0.dxe.depex
-            SECTION PE32 = SurfaceDuo2Pkg/PatchedBinaries/UsbConfigDxe.efi
-            SECTION UI = "UsbConfigDxe"
-    }
 
     FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
             SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.MXF.1.0-00872-LAHAINA-2/volume-0/file-2/section0/section1/volume-0/file-5bd181db-0487-4f1a-ae73-820e165611b3/section0.dxe.depex
