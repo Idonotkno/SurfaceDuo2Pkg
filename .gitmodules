@@ -21,3 +21,4 @@
 [submodule "Platforms/SurfaceDuoBinaries"]
 	path = Platforms/SurfaceDuoBinaries
 	url = https://github.com/Idonotkno/duo2dxe.git
+	branch = main
