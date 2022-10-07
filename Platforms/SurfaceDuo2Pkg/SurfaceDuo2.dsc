@@ -38,15 +38,15 @@
   gArmPlatformTokenSpaceGuid.PcdClusterCount|3
 
   # SMBIOS
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Surface Duo 2"
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemModel|"HUAWEI LAHAINA"
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"1995"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Surface_Duo_2_1995"
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Surface Duo 2"
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"H
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"HUAWEI LAHAINA"
 
   # Simple FrameBuffer
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xe1000000
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1344
-  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1892
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xe2200000
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1224
+  gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2700
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
   # PStore
@@ -54,10 +54,10 @@
   gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdPStoreBufferSize|0x00200000
 
 [PcdsDynamicDefault.common]
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1344
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|1892
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1344
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|1892
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1224
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2700
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1224
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|2700
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|158
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|150
 
