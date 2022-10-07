@@ -231,11 +231,7 @@
     }
 
 
-    FILE DRIVER = 3977d4c4-b0eb-4548-96b9-671fa2e36820 {
-            SECTION DXE_DEPEX = SurfaceDuoBinaries/BOOT.XF.3.0-00527-SM8150LZB-1-202206/volume-0/file-2/section0/section1/volume-0/file-3977d4c4-b0eb-4548-96b9-671fa2e36820/section0.dxe.depex
-            SECTION PE32 = SurfaceDuoBinaries/BOOT.XF.3.0-00527-SM8150LZB-1-202206/volume-0/file-2/section0/section1/volume-0/file-3977d4c4-b0eb-4548-96b9-671fa2e36820/section1.pe
-            SECTION UI = "MsEarlyGraphicsDxe"
-    }
+
 
     FILE FREEFORM = a91d838e-a5fa-4138-825d-455e23030794 {
             SECTION UI = "logo1.bmp"
